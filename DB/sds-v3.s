@@ -84,11 +84,6 @@ CREATE TABLE `user` (
 
 /*Data for the table `user` */
 
-insert into `user` (`userid`,`username`,`password`,`phone`,`email`) values (1,'user1','user1','9809809809','user1@gmail.com');
-insert into `user` (`userid`,`username`,`password`,`phone`,`email`) values (2,'user2','user2','9000235614','user2@gmail.com');
-insert into `user` (`userid`,`username`,`password`,`phone`,`email`) values (3,'user3','user3','9000900000','user3@gmail.com');
-insert into `user` (`userid`,`username`,`password`,`phone`,`email`) values (4,'user4','user4','9000900000','user4@gmail.com');
-insert into `user` (`userid`,`username`,`password`,`phone`,`email`) values (5,'prash','prash','9099909090','prashanthamn28@gmail.com');
 
 /*Table structure for table `userrolemapping` */
 
@@ -103,11 +98,6 @@ CREATE TABLE `userrolemapping` (
 
 /*Data for the table `userrolemapping` */
 
-insert into `userrolemapping` (`userrolemappingid`,`userid`,`typeofuserid`) values (1,1,1);
-insert into `userrolemapping` (`userrolemappingid`,`userid`,`typeofuserid`) values (2,2,2);
-insert into `userrolemapping` (`userrolemappingid`,`userid`,`typeofuserid`) values (3,3,1);
-insert into `userrolemapping` (`userrolemappingid`,`userid`,`typeofuserid`) values (4,4,2);
-insert into `userrolemapping` (`userrolemappingid`,`userid`,`typeofuserid`) values (5,5,2);
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
